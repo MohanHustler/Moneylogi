@@ -1,0 +1,44 @@
+.logs {
+  /* width: 600px; */
+  /* height: 472px; */
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 34px 21px 0px 25px;
+}
+
+.logs h1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e2e2e;
+  margin-bottom: 25px !important;
+}
+
+.logs .filter-select-value {
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.logs .filter-select-value textarea {
+  resize: none;
+  height: 87px;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.logs .filter-select-value textarea::placeholder {
+  color: #b9b9b9;
+}
+
+.logs .filter-select-value textarea:focus {
+  outline: none !important;
+  border: solid 1px #dfdfdf !important;
+}
+
+.logs .filter-bottom {
+  border-top: none;
+  justify-content: flex-end;
+}
+
+.logs .filter-bottom .filter-btn {
+  margin-left: 20px;
+}

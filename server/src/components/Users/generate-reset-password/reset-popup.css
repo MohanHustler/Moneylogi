@@ -1,0 +1,142 @@
+/* Generate Reset Password Popup */
+.generate-reset {
+  padding: 34px 35px;
+}
+
+.generate-reset-header h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e2e2e;
+  padding-bottom: 23px;
+  text-transform: uppercase;
+}
+
+.generate-reset-message {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737373;
+  padding-bottom: 28px;
+}
+
+/* Reset Password Popup */
+.reset-password {
+  padding: 34px 35px;
+}
+
+.reset-password h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  padding-bottom: 33px;
+}
+
+.reset-password-body {
+  text-align: center;
+}
+
+.reset-password-img {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 21px;
+}
+
+.reset-password-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.reset-password-message {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737373;
+  padding-bottom: 30px;
+}
+
+.reset-password-user {
+  padding-bottom: 35px;
+}
+
+.reset-password-user h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2e2e2e;
+  padding-bottom: 4px;
+}
+
+.reset-password-user label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737373;
+}
+
+.reset-password-details p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #a6a6a6;
+  padding-bottom: 16px;
+}
+
+/* .reset-password-details label {
+  display: block;
+  padding-bottom: 18px;
+} */
+.reset-password-field {
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.reset-password-field .form-control {
+  border: none;
+}
+
+.reset-password-details .form-control[readonly] {
+  background-color: #ffffff;
+  font-size: 40px;
+  width: 25%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+
+.reset-password-details .reset-password-field-text {
+  font-size: 14px !important;
+  color: #a6a6a6;
+}
+
+.reset-password-show-img {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  cursor: pointer;
+}
+
+.reset-password-hide-img {
+  position: absolute;
+  top: 3px;
+  right: 100px;
+  cursor: pointer;
+}
+
+.copy-to-clipboard {
+  position: relative;
+}
+
+.reset-password-details span {
+  font-size: 10px;
+  font-weight: 500;
+  color: #a6a6a6;
+  display: inline-block;
+  padding-bottom: 58px;
+  cursor: pointer;
+}
+
+.copy-to-clipboard-msg {
+  color: red !important;
+  cursor: default !important;
+  position: absolute;
+  right: 20%;
+  top: 0;
+}

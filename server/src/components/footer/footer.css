@@ -1,0 +1,20 @@
+.footer-sec {
+  border-top: solid 1px #ebebeb;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 23px 0px;
+  margin-top: 30px;
+}
+.footer-sec.active {
+  width: calc(100% - 350px);
+}
+.footer-sec label {
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b9b9b9;
+}

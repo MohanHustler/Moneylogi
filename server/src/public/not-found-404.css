@@ -1,0 +1,58 @@
+.error-page-text {
+  text-align: center;
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.error-page-text h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: center;
+  color: #dc3545;
+  padding-bottom: 1.5rem;
+}
+
+.error-page-text p {
+  font-size: 1.9rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+}
+
+.home-btn {
+  margin-top: 3.3rem;
+}
+
+.home-btn .black-border-btn {
+  padding: 1.1rem 3.1rem;
+}
+
+.error-page-img {
+  text-align: center;
+  position: relative;
+  top: 10rem;
+}
+
+.error-page-img img {
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 991px) {
+  .error-page-text {
+    width: 100%;
+    top: 15%;
+  }
+
+  .error-page-img img {
+    width: 100%;
+  }
+
+  .error-page-text h1 {
+    font-size: 2rem;
+  }
+
+  .error-page-text p {
+    font-size: 1rem;
+  }
+}

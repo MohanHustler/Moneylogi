@@ -1,0 +1,486 @@
+.dashbord-sec {
+  padding: 0px 15px;
+  position: relative;
+  top: 70px;
+}
+
+.activity-card {
+  width: 100%;
+}
+
+.add-user-popup .modal-dialog {
+  max-width: 430px;
+}
+
+.dashboard-activity-registration {
+  display: flex;
+  width: 100%;
+}
+
+.dashboard-disburment-card {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.disburment-card {
+  width: 100%;
+  border-radius: 6px;
+  border: solid 1px #dfdfdf;
+  background-color: #ffffff;
+  padding: 1.8rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  flex-wrap: wrap;
+  /* min-height: 140px; */
+}
+
+.default {
+  margin-bottom: 10px;
+  min-height: 154px;
+}
+
+.disburment-card-sec {
+  display: flex;
+}
+
+.disburment-card:hover {
+  border-radius: 6px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+  border: solid 1px #dfdfdf;
+}
+
+.disburment-card-img {
+  height: 76px;
+  margin-right: 1.5rem;
+}
+
+.disburment-card-text h1 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2e2e2e;
+  padding-bottom: 0.6rem;
+}
+
+.disburment-card-text p {
+  font-size: 10px;
+  font-weight: 500;
+  color: #737373;
+  padding-bottom: .8rem;
+}
+
+.disburment-card-text label {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.disburment-card-text .blue-color {
+  color: #00a3ff;
+  cursor: pointer;
+}
+
+.disburment-card-text .green-color {
+  color: #28a745;
+  cursor: pointer;
+}
+
+.disburment-card-text .red-color {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.disburment-card-text .yellow-color {
+  color: #f7b500;
+  cursor: pointer;
+}
+
+.disburment-card-text .dark-blue-color {
+  color: #4b77be;
+  cursor: pointer;
+}
+
+.disburment-card-text .ocean-blue-color {
+  color: #20c0e0;
+  cursor: pointer;
+}
+
+.disburment-card-label {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.disburment-card-label label {
+  font-size: 10px;
+  font-weight: 500;
+  color: #737373;
+}
+
+.disburment-card-label label span {
+  color: #2e2e2e;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.recent-activity-section {
+  width: 100%;
+  padding: 1.7rem 0rem;
+  padding-bottom: 0rem;
+  border-radius: 0.6rem;
+  border: solid 1px #ebebeb;
+  background-color: #ffffff;
+}
+
+.recent-activity-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.recent-activity-section h2 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #737373;
+  margin-bottom: 5px !important;
+}
+
+.recent-activity-section h1 a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #002a4c;
+  text-transform: uppercase;
+  margin-bottom: 5px !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.recent-activity-head span {
+  cursor: pointer;
+}
+
+.recent-activity-section span {
+  font-size: 10px;
+  font-weight: 500;
+  color: #002a4c;
+}
+
+.recent-activity-section span a {
+  font-size: 10px;
+  font-weight: 500;
+  color: #002a4c;
+  text-decoration: none;
+}
+
+.recent-activity-top {
+  padding: 0rem 1.7rem;
+  padding-bottom: 0.4rem;
+}
+
+.recent-activity-top label {
+  color: #737373;
+  font-size: 12px;
+}
+
+.recent-activity-top label span {
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+.recent-activity-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.new-registration-content {
+  display: block !important;
+}
+
+.recent-activity-content a {
+  cursor: default;
+}
+
+.card-scroll .recent-activity-content:hover {
+  background-color: #f8f9fa;
+}
+
+.recent-activity-content .recent-activity-img {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.recent-activity-content .recent-activity-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.registration-card .recent-activity-content {
+  padding: 1.5rem 2rem;
+}
+
+.recent-activity-content-left {
+  display: inline-block;
+}
+.recent-activity-align{
+  display: inline-block;
+}
+.recent-activity-content-right {
+  float: right;
+  margin-top: 4px;
+}
+
+.registration-card .recent-activity-content .recent-activity-content-left {
+  /* flex-basis: 65%; */
+  vertical-align: middle;
+}
+
+.registration-card .recent-activity-content .recent-activity-img {
+  /* flex-basis: 13%; */
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.recent-activdelete-reason-popupity-content .recent-activity-content-left h1 {
+  color: #002a4c;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.recent-activity-content .recent-activity-content-left label {
+  color: #737373;
+  font-size: delete-reason-popup10px;
+  font-weight: 500;
+}
+
+.recent-activity-content .recent-activity-content-left label span {
+  color: #737373;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.recent-activity-content .recent-activity-content-right label {
+  padding: 0.5rem 0.7rem;
+  color: #f7b500;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #fff9e7;
+}
+
+.box-shadow:last-child {
+  box-shadow: none;
+}
+
+.green {
+  font-size: 12px;
+  font-weight: 500;
+  color: #28a745 !important;
+  padding: 0.4rem 1.7rem !important;
+  border-radius: 4px;
+  background-color: #e9ffee !important;
+}
+
+.card-scroll {
+  height: 24rem;
+  overflow-y: auto !important;
+}
+
+.card-scroll .table-loader {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+.card-scroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.card-scroll::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.card-scroll:hover::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+[data-test-id="CircularProgressbarWithChildren"] {
+  height: 100%;
+  width: auto;
+}
+
+[data-test-id="CircularProgressbarWithChildren__children"] {
+  position: static !important;
+}
+
+.blue-color .CircularProgressbar .CircularProgressbar-path {
+  stroke: #00a3ff;
+}
+
+.green-color .CircularProgressbar .CircularProgressbar-path {
+  stroke: #28a745;
+}
+
+.red-color .CircularProgressbar .CircularProgressbar-path {
+  stroke: #dc3545;
+}
+
+.yellow-color .CircularProgressbar .CircularProgressbar-path {
+  stroke: #f7b500;
+}
+
+.dark-blue-color .CircularProgressbar .CircularProgressbar-path {
+  stroke: #4b77be;
+}
+
+.ocean-blue-color .CircularProgressbar .CircularProgressbar-path {
+  stroke: #20c0e0;
+}
+
+.progress-bar-number {
+  color: #002a4c;
+  font-size: 2rem;
+  font-weight: 600;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.progress-bar-precentage {
+  font-size: 14px !important;
+  color: #b6b9bc !important;
+}
+
+.CircularProgressbar {
+  height: 100%;
+  width: auto;
+}
+
+.today-emi-sec {
+  margin-top: 40px;
+  position: relative !important;
+}
+
+.table-title-sec {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px !important;
+  align-items: center;
+}
+
+.table-title-sec h1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.dasbord-table-filter-popup {
+  position: absolute;
+  top: 4rem !important;
+  right: 1rem !important;
+  width: 78rem !important;
+  z-index: 9999 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .dashboard-disburment-card {
+    flex-wrap: wrap;
+  }
+
+  .disburment-card {
+    /* width: 225px; */
+    margin-bottom: 20px;
+  }
+
+  .dasbord-table-filter-popup {
+    width: 100% !important;
+    top: 3rem !important;
+    right: 0rem !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dashbord-sec {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+
+  .dashboard-disburment-card {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .recent-activity-section {
+    width: 100%;
+  }
+
+  .registration-card .recent-activity-content {
+    padding: 0.65rem 1rem;
+  }
+
+  .recent-activity-content {
+    padding: 1rem;
+  }
+
+  .recent-activity-head {
+    padding: 0px 1rem;
+  }
+
+  .recent-activity-top {
+    padding: 0px 1rem;
+  }
+
+  .disburment-card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    margin-right: 0rem;
+  }
+
+  .dashboard-activity-registration {
+    flex-direction: column;
+  }
+
+  .dashboard-container {
+    padding: 0rem;
+  }
+
+  .registration-card {
+    padding-left: 0rem;
+  }
+
+  .activity-card {
+    margin-bottom: 2rem;
+  }
+
+  .activity-card .recent-activity-content-left {
+    flex-basis: 60%;
+  }
+
+  .registration-card .recent-activity-content .recent-activity-content-left {
+    flex-basis: 65%;
+  }
+
+  .common-heading h1 {
+    font-size: 1.6rem;
+  }
+
+  .hamburger-menu ul li {
+    font-size: 1rem;
+  }
+
+  .disburment-card-sec {
+    display: block;
+  }
+
+  .disburment-card-img {
+    margin-bottom: 20px;
+  }
+}

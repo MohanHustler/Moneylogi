@@ -1,0 +1,169 @@
+/* editaddress-sec */
+
+.editaddress-sec {
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.editaddress-header {
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editaddress-header h2 {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2e2e2e;
+  margin: 0px;
+}
+
+.editaddress-form-sec .fliter-input-value {
+  margin-bottom: 22px;
+  width: 100%;
+}
+
+.editaddress-form-sec .fliter-input-value input::placeholder {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b9b9b9;
+}
+
+.editaddress-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editaddress-form .fliter-input-value {
+  width: 48%;
+}
+
+.editaddress-form .filter-select-value {
+  width: 48%;
+}
+
+.filter-select-value .downarrow-img {
+  float: right;
+  margin-top: -28px;
+  margin-right: 10px;
+}
+
+.editaddress-bottom .black-border-btn {
+  min-width: 129px;
+  padding: 10px 15px;
+}
+
+.editaddress-select {
+  display: flex;
+}
+
+.editaddress-select .black-border-btn {
+  min-width: 100px;
+  padding: 11px 15px;
+  margin-left: 20px;
+}
+
+.editaddress-select .cancel-btn {
+  min-width: 100px;
+}
+
+.editaddress-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0px;
+}
+
+.editaddress-visible-sec h2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.editaddress-visible-sec-btn {
+  margin-top: 20px;
+}
+
+.editaddress-visible-sec-btn .black-border-btn {
+  padding: 6px 13px !important;
+  margin-right: 20px;
+}
+
+.editaddress-visible-sec {
+  padding: 26px 0px;
+  border-top: solid 1px #d7d9de;
+  border-bottom: solid 1px #d7d9de;
+}
+
+.editaddress-visible-sec-end {
+  padding: 26px 0px;
+  border: none;
+  border-bottom: solid 1px #d7d9de;
+}
+
+
+@media screen and (max-width: 600px) {
+  .editaddress-bottom {
+    display: inline;
+  }
+
+  .editaddress-select .btn-align {
+    margin-left: 0px;
+  }
+
+  .editaddress-form {
+    display: block;
+  }
+
+  .editaddress-form .fliter-input-value {
+    width: 100%;
+  }
+
+  .editaddress-form .filter-select-value {
+    width: 100% !important;
+  }
+
+  .editaddress-select .black-border-btn {
+    margin-bottom: 0;
+  }
+
+  .editaddress-bottom .black-border-btn {
+    padding: 8px 12px;
+    min-width: 100px;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+
+  .editaddress-select .black-border-btn {
+    padding: 8px 12px;
+    margin-bottom: 0;
+  }
+
+  .add-new-address-form {
+    margin-bottom: 30px;
+  }
+
+  .editaddress-select button {
+    font-size: 12px;
+  }
+
+  .editaddress-visible-sec {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .editaddress-visible-sec-btn .black-border-btn {
+    font-size: 12px;
+    padding: 4px 8px !important;
+    margin-right: 10px;
+  }
+
+  .editaddress-select .black-border-btn {
+    margin-left: 10px;
+  }
+}

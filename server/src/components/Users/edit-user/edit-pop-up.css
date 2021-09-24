@@ -1,0 +1,175 @@
+/* filter */
+
+.editpopup-sec {
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.editpopup-header {
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editpopup-header h2 {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2e2e2e;
+  margin: 0px;
+}
+
+.editpopup-form-sec .custom-error-msg {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 85%;
+  color: #dc3545 !important;
+}
+
+.editpopup-form-sec .error-custom-border {
+  border-color: #dc3545 !important;
+}
+
+.editpopup-form-sec .invalid-feedback,
+.editpopup-form-sec .custom-error-msg {
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+
+.editpopup-input-value {
+  width: 100%;
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.editpopup-input-value .form-control {
+  height: 40px !important;
+  border-radius: 6px !important;
+  border: solid 1px #dfdfdf !important;
+  background-color: #ffffff !important;
+  padding: 11px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #002a4c !important;
+}
+
+.editpopup-input-value .form-control::placeholder {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #b9b9b9 !important;
+}
+
+.editpopup-input-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737373;
+  margin-bottom: 10px !important;
+}
+
+.editpopup-input-title span {
+  color: #dc3545;
+}
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+.css-2b097c-container:focus,
+.css-g1d714-ValueContainer:focus,
+.css-1wa3eu0-placeholder:focus,
+.css-1hb7zxy-IndicatorsContainer:focus,
+.css-tlfecz-indicatorContainer:focus,
+.css-6q0nyr-Svg:focus,
+.css-b8ldur-Input:focus {
+  outline: 0px !important;
+}
+.css-1pahdxg-control {
+  border: solid 1px #dfdfdf !important;
+  box-shadow: unset !important;
+}
+.css-1wa3eu0-placeholder {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b9b9b9;
+}
+.css-2613qy-menu {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b9b9b9;
+}
+.css-g1d714-ValueContainer {
+  height: 42px !important;
+}
+
+.css-4ljt47-MenuList,
+.css-9gakcf-option {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #b9b9b9 !important;
+}
+.css-26l3qy-menu:active,
+.css-4ljt47-MenuList:active,
+.css-9gakcf-option:active {
+  background-color: #ffffff !important;
+}
+
+.css-1uccc91-singleValue {
+  border-radius: 6px;
+  border: solid 1px #dfdfdf;
+  background-color: #f8f8f8;
+  padding: 6px 11px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #b9b9b9 !important;
+}
+.css-yk16xz-control:hover {
+  border: solid 1px #dfdfdf !important;
+}
+.css-2b097c-container:hover,
+.css-g1d714-ValueContainer:hover,
+.css-1wa3eu0-placeholder:hover,
+.css-1hb7zxy-IndicatorsContainer:hover,
+.css-6q0nyr-Svg:hover,
+.css-b8ldur-Input:hover,
+.css-yk16xz-control:hover,
+.css-tlfecz-indicatorContainer:hover {
+  border-color: #dfdfdf !important;
+}
+.css-yk16xz-control {
+  border-radius: 6px !important;
+}
+
+.editpopup-bottom .black-border-btn,
+.editpopup-bottom .cancel-btn {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.editpopup-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lhyQmCtWOINviMz0WG_gr {
+  background-color: #f8f8f8 !important;
+  color: #737373 !important;
+}
+
+._3vt7_Mh4hRCFbp__dFqBCI li:hover {
+  background-color: #f8f8f8 !important;
+  color: #737373 !important;
+}
+
+._3vt7_Mh4hRCFbp__dFqBCI li {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+/* responsive */
+
+@media screen and (max-width: 767px) {
+}

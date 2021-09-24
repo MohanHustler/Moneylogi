@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.7439614,8.2560092 C21.4025765,7.9146636 20.8550725,7.9146636 20.5136876,8.2560092 L15,13.7690627 L9.4863124,8.2560092 C9.14492754,7.9146636 8.59742351,7.9146636 8.25603865,8.2560092 C7.91465378,8.5973548 7.91465378,9.14479586 8.25603865,9.48614146 L13.7697262,14.9991949 L8.25603865,20.5122484 C7.91465378,20.853594 7.91465378,21.4010351 8.25603865,21.7423807 C8.42351047,21.9098332 8.6489533,22 8.86795491,22 C9.08695652,22 9.31239936,21.9162737 9.47987118,21.7423807 L14.9935588,16.2293272 L20.5072464,21.7423807 C20.6747182,21.9098332 20.900161,22 21.1191626,22 C21.3446055,22 21.5636071,21.9162737 21.7310789,21.7423807 C22.0724638,21.4010351 22.0724638,20.853594 21.7310789,20.5122484 L16.2302738,14.9991949 L21.7439614,9.48614146 C22.0853462,9.14479586 22.0853462,8.5973548 21.7439614,8.2560092 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="DesktopProfileV3Popup" transform="translate(-818.000000, -103.000000)" fillRule="nonzero">
+            <g id="popup">
+                <g id="Group-25" transform="translate(241.000000, 96.000000)">
+                    <g id="close" transform="translate(570.000000, 0.000000)">
+                        <g id="Path">
+                            <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <use stroke="#8E8E8E" strokeWidth="0.4" xlink:href="#path-1"></use>
+                            <use stroke="#FFFFFF" strokeWidth="0.5" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

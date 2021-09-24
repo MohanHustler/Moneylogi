@@ -1,0 +1,43 @@
+/* .common-table  */
+.action-sec {
+  display: flex;
+}
+
+/* .common-table  */
+.action-sec .action-sec-img {
+  padding: 0px 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.action-sec .action-sec-delet svg:hover {
+  stroke: #002a4c;
+}
+
+.action-sec .action-sec-view svg:hover {
+  stroke: #002a4c;
+}
+
+.action-sec .action-sec-edit svg:hover {
+  stroke: #002a4c;
+}
+
+.action-sec .common-overlay {
+  left: 0 !important;
+}
+
+.action-sec .action-sec-img img {
+  z-index: 99;
+}
+
+.action-sec .action-sec-img .action-more-icon-menu {
+  z-index: 999;
+}
+.manage-dashboard-table table tbody tr:last-child .action-more-icon-menu{ 
+  top: initial;
+  bottom: 20px;
+}
+.manage-dashboard-table table tbody tr:nth-last-child(2) .action-more-icon-menu{ 
+  top: initial;
+  bottom: 20px;
+}

@@ -1,0 +1,260 @@
+.onboarding-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.onboarding-image {
+  height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  flex-basis: 49%;
+  position: relative;
+}
+
+.onboarding-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.onboarding-content {
+  flex-basis: 43%;
+  margin-top: 13rem;
+}
+
+.onboarding-header label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #737373;
+}
+
+.onboarding-header {
+  padding-bottom: 7rem;
+}
+
+.onboarding-fields p {
+  width: 350px;
+  height: 39px;
+  font-size: 10px;
+  color: #2e2e2e;
+  margin-bottom: 2rem !important;
+}
+
+.onboarding-fields p label {
+  color: #737373;
+}
+
+.onboarding-fields {
+  width: 350px;
+}
+
+.onboarding-header h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.custom-input label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px !important;
+  color: #737373;
+}
+
+.custom-input a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #002a4c;
+  cursor: pointer;
+  float: right;
+}
+
+.custom-input a:focus {
+  outline: none;
+}
+
+.custom-input a:hover {
+  color: #002a4c;
+  text-decoration: none;
+}
+
+.custom-input .form-control {
+  font-size: 1.2rem;
+  height: auto !important;
+  padding: 1.1rem 1.3rem;
+  border-radius: 6px;
+  border: solid 1px #dfdfdf;
+  background-color: #ffffff;
+}
+
+.custom-input {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.blue-button {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: #002a4c;
+  width: 150px;
+  height: 38px;
+  border-radius: 4px;
+  border: solid 1px #002a4c;
+  background-color: #ffffff;
+}
+
+.hide-img {
+  position: absolute;
+  top: 40px;
+  left: 315px;
+  cursor: pointer;
+  width: 25px;
+  height: 11px;
+}
+
+.hide-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.show-img {
+  position: absolute;
+  top: 44px;
+  left: 315px;
+  cursor: pointer;
+  width: 25px;
+  height: 11px;
+}
+
+.show-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.onboarding-btn {
+  text-align: center;
+}
+
+.onboarding-btn .black-border-btn {
+  height: 38px;
+  width: 150px;
+}
+
+.onboarding-fotter {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #737373;
+  margin-top: 2rem;
+}
+
+.onboarding-fotter label a {
+  color: #002a4c;
+  text-decoration: none;
+}
+
+/* Validations Page icons  */
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: none !important;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  background-image: none !important;
+}
+
+/* Error message font-size */
+.invalid-feedback {
+  font-size: 85% !important;
+}
+
+/* validation error message */
+
+.custom-error-msg {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545 !important;
+}
+
+.error-custom-border {
+  border-color: #dc3545 !important;
+}
+
+.signin-page .invalid-feedback,
+.change-password-page .invalid-feedback,
+.change-password-page .custom-error-msg {
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+
+
+/*  Mobile responsive */
+@media only screen and (max-width: 991px) {
+  .onboarding-page {
+    flex-direction: column;
+    padding: 0 3.5rem;
+  }
+
+  .onboarding-image {
+    display: none;
+  }
+
+  .onboarding-content {
+    margin: 10% auto;
+    margin-top: 100px;
+  }
+
+  .onboarding-btn .black-border-btn {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .onboarding-content {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .onboarding-fields {
+    width: 100%;
+  }
+
+  .onboarding-content {
+    margin: 0;
+    margin-top: 80px;
+  }
+
+  .onboarding-page {
+    padding: 0 20px;
+  }
+
+  .hide-img {
+    position: absolute;
+    top: 53%;
+    left: 88%;
+    cursor: pointer;
+  }
+
+  .show-img {
+    position: absolute;
+    top: 53%;
+    left: 88%;
+    cursor: pointer;
+  }
+
+  .onboarding-fields p {
+    width: 270px;
+  }
+
+  .onboarding-header {
+    padding-bottom: 4rem;
+  }
+
+}

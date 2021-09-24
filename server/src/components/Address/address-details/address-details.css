@@ -1,0 +1,17 @@
+.addressdetails-sec .filter-header {
+  padding: 0;
+}
+
+.addressdetails-sec-btn .black-border-btn {
+  padding: 5px 11px;
+  border: solid 1px #979797;
+  background-color: rgba(0, 42, 76, 0.3);
+}
+
+.addressdetails-sec .editaddress-visible-sec {
+  border-top: none;
+}
+
+.addressdetails-sec-btn .default-chip {
+  margin-top: 24px;
+}

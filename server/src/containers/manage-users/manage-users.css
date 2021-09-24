@@ -1,0 +1,49 @@
+.action-more-icon-menu {
+  position: absolute;
+  border-radius: 6px;
+  border: solid 1px #ebebeb;
+  background-color: #ffffff;
+  z-index: 4;
+  left: -20px;
+  top: 20px;
+}
+
+.action-more-icon-menu p label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737373;
+  display: block;
+  cursor: pointer;
+  padding: 9px 18px 9px 18px;
+}
+
+.action-more-icon-menu p label:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.action-more-icon-menu p:first-child {
+  padding-top: 9px !important;
+}
+
+.action-more-icon-menu p:last-child {
+  padding-bottom: 9px !important;
+}
+
+/* POPUP */
+.edit-reason-popup .modal-dialog {
+  max-width: 430px;
+}
+
+.delete-reason-popup .modal-dialog {
+  max-width: 600px;
+}
+
+.generate-reset-popup .modal-dialog {
+  max-width: 430px;
+  /* transform: translateY(0%) !important; */
+}
+
+.custom-reset-popup .modal-dialog {
+  max-width: 430px;
+}

@@ -1,0 +1,47 @@
+{
+    "family": "web-employee-portal",
+    "executionRoleArn": "arn:aws:iam::219807560952:role/ecsTaskExecutionRole",
+    "containerDefinitions": [
+      {
+        "logConfiguration": {
+          "logDriver": "awslogs",
+          "options": {
+            "awslogs-group": "/ecs/web-employee-portal",
+            "awslogs-region": "ap-south-1",
+            "awslogs-stream-prefix": "ecs"
+          }
+        },
+        "portMappings": [
+          {
+            "hostPort": 80,
+            "protocol": "tcp",
+            "containerPort": 3000
+          }
+        ],
+        "cpu": 0,
+        "environment": [],
+        "mountPoints": [],
+        "secrets": [
+          {
+            "valueFrom": "arn:aws:ssm:ap-south-1:219807560952:parameter/web-employee-portal/test/IDENTITY_SERVICE_URL",
+            "name": "IDENTITY_SERVICE_URL"
+          }
+        ],
+        "volumesFrom": [],
+        "image": "${IMAGE_NAME}",
+        "dockerLabels": {
+          "name": "web-employee-portal"
+        },
+        "name": "web-employee-portal"
+      }
+    ],
+    "placementConstraints": [],
+    "memory": "512",
+    "taskRoleArn": "arn:aws:iam::219807560952:role/ecsTaskExecutionRole",
+    "requiresCompatibilities": [
+      "FARGATE"
+    ],
+    "networkMode": "awsvpc",
+    "cpu": "256",
+    "volumes": []
+  }

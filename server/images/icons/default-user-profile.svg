@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>userprofileicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="desktopDashboard" transform="translate(-870.000000, -9.000000)">
+            <g id="topNavigation" transform="translate(0.000000, -1.000000)">
+                <g id="userprofileicon" transform="translate(870.000000, 10.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                    <g id="user-3" mask="url(#mask-2)" fill="#FFFFFF" fillRule="nonzero">
+                        <g transform="translate(8.666667, 9.333333)">
+                            <path d="M11.3333333,0 C7.27667826,0 3.97660819,3.21481389 3.97660819,7.16666667 C3.97660819,11.1185194 7.27667826,14.3333333 11.3333333,14.3333333 C15.3899884,14.3333333 18.6900585,11.1185194 18.6900585,7.16666667 C18.6900585,3.21481389 15.3899884,0 11.3333333,0 Z M11.3333333,12.2254967 C8.46996331,12.2254967 6.14034416,9.9560625 6.14034416,7.16666667 C6.14034416,4.37727083 8.46996331,2.10783659 11.3333333,2.10783659 C14.1967034,2.10783659 16.5263225,4.37727083 16.5263225,7.16666667 C16.5263225,9.9560625 14.1967034,12.2254967 11.3333333,12.2254967 Z" id="Shape"></path>
+                            <path d="M11.3333333,17.1203704 C4.97815749,17.1203704 0,22.1919841 0,28.6666667 L2.12499299,28.6666667 C2.12499299,23.277231 6.08387865,19.2133427 11.3333333,19.2133427 C16.582788,19.2133427 20.5416737,23.2775626 20.5416737,28.6666667 L22.6666667,28.6666667 C22.6666667,22.1920393 17.6885092,17.1203704 11.3333333,17.1203704 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

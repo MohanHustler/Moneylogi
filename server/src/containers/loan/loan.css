@@ -1,0 +1,139 @@
+/* Sign Agreements */
+.sign-agreements h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  /* padding-bottom: 1rem; */
+  color: #2e2e2e;
+  margin-bottom: 1.4rem !important;
+}
+
+.agreements {
+  /* width: 523px; */
+  /* height: 197px; */
+  border-radius: 6px;
+  border: solid 1px #d7d9de;
+  background-color: #ffffff;
+  padding: 1.9rem;
+}
+
+.agreements ul li span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.83;
+  color: #2e2e2e;
+}
+
+.agreements ul li label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.83;
+  color: #737373;
+  width: 180px;
+}
+
+.download .black-border-btn {
+  padding: 10px 52px;
+}
+
+.download {
+  padding-top: 15px;
+}
+
+/* Loan inform tabel */
+.loan-inform {
+  /* width: 260px; */
+  /* height: 734px; */
+  border-radius: 0.6rem;
+  border: solid 1px #d7d9de;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.loan-content {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #737373;
+  margin: 15px 0px 15px 18px;
+}
+
+.loan-content-name {
+  text-transform: uppercase;
+}
+
+.loan-content label {
+  color: #002a4c;
+}
+
+.loan-tabel ul {
+  /* margin-left: 1.8rem; */
+  padding: 0px 1.8rem;
+}
+
+.loan-tabel ul li label {
+  font-size: 11px;
+  color: #737373;
+  width: 127px;
+}
+
+.loan-tabel ul li span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2e2e2e;
+  width: 100px;
+}
+
+.loan-tabel ul li {
+  margin-bottom: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.loan-tabel {
+  border-bottom: solid 1px #d7d9de;
+  background-color: #ffffff;
+}
+
+.loan-tabel:nth-child(3n) {
+  border-bottom: none;
+}
+
+.add-new-user {
+  border-radius: 8px;
+  background-color: rgba(0, 163, 255, 0.05);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.new-user h1 {
+  font-size: 12px;
+  color: #2e2e2e;
+}
+
+.new-user {
+  align-self: center;
+  width: 50%;
+}
+
+.add-new-user-btn .black-btn {
+  padding: 1rem 4rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .agreements {
+    padding: 1.3rem;
+  }
+
+  .add-new-user {
+    display: block;
+  }
+
+  .new-user {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .add-new-user-btn .black-btn {
+    width: 100%;
+  }
+}

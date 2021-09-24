@@ -1,0 +1,38 @@
+/* Package CSS Dependencies */
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+@import url('../node_modules/react-bootstrap-table/dist/react-bootstrap-table.min.css');
+@import url('../node_modules/react-circular-progressbar/dist/styles.css');
+@import url('../node_modules/bootstrap-daterangepicker/daterangepicker.css');
+@import url('./libs/toastr.min.css');
+@import url('./libs/animate.min.css');
+
+/* Custom CSS Dependencies */
+@import url('./common.css');
+@import url('../src/components/header/header.css');
+@import url('../src/components/side-bar/sidebar.css');
+@import url('../src/components/filter/filter.css');
+@import url('../src/components/download-cvv/downloadcvv.css');
+@import url('../src/components/Profile/call-logs/call-logs.css');
+@import url('../src/components/Profile/profile-details-tab/profile-details-tab.css');
+@import url('../src/components/Profile/file-upload/file-upload.css');
+@import url('../src/components/Address/edit-address/edit-address.css');
+@import url('../src/components/Users/edit-user/edit-pop-up.css');
+@import url('../src/components/Address/address-details/address-details.css');
+@import url('../src/components/Users/action/action.css');
+@import url('../src/components/Users/delete-with-reason/delete-with-reason.css');
+@import url('../src/components/Loaders/loader.css');
+@import url('../src/components/Profile/loan-eligibility/loan-eligibility.css');
+
+@import url('../src/containers/sign-in/signin.css');
+@import url('../src/containers/dashboard/dashboard.css');
+@import url('../src/containers/profile/profile.css');
+@import url('../src/containers/loan/loan.css');
+@import url('../src/containers/loan-information/loan-information.css');
+@import url('../src/containers/defaults/defaults.css');
+@import url('../src/components/Users/switch/switch.css');
+@import url('../src//components/footer/footer.css');
+@import url('../src/containers/manage-users/manage-users.css');
+@import url('../src/components/Users/generate-reset-password/reset-popup.css');
+@import url('../src/components/edit-bank/edit-bank.css');
+@import url('../src/components/edit-pincode/edit-pincode.css');
+@import url('../src/components/edit-profession/edit-profession.css');

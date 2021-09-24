@@ -1,0 +1,83 @@
+{
+  "openapi":"3.0.2",
+  "info":{
+    "version":"1.0.0",
+    "title":"react-microservice",
+    "description":"This end points ensure that the react-microservice sever and database connectivity are working"
+  },
+  "paths":{
+    "/ping":{
+      "get":{
+        "description":"This endpoint will ensure that react-microservice is working",
+        "responses":{
+          "200":{
+            "description":"Will return status 200",
+            "content":{
+              "application/json":{
+                "schema":{
+                  "type":"object",
+                  "properties":{
+                    "status":{
+                      "type":"string",
+                      "example":"ok"
+                    },
+                    "version":{
+                      "type":"string",
+                      "example":"1.0.0"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/healthcheck":{
+      "get":{
+        "description":"This endpoint will be consumed by dashboards for monitoring purposes. It could talk to downstream services",
+        "responses":{
+          "200":{
+            "description":"Will return response for all downstream services",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type":"object",
+                  "properties":{
+                    "version":{
+                      "type":"string",
+                      "example": "1.0.0"
+                    },
+                    "dependsOn":{
+                      "type":"array",
+                      "items": {
+                        "properties":{
+                          "name":{
+                            "type":"string",
+                            "example": "node-microservice"
+                          },
+                          "type":{
+                            "type":"string",
+                            "example": "database"
+                          },
+                          "status":{
+                            "type":"string",
+                            "example": "success"
+                          },
+                          "version":{
+                            "type":"string",
+                            "example": "0"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

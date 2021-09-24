@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="DesktopProfile" transform="translate(-278.000000, -487.000000)">
+            <g id="Group-5-Copy-7" transform="translate(277.000000, 402.000000)">
+                <g id="Group-20" transform="translate(0.000000, 27.000000)">
+                    <g id="Group-7-Copy-3" transform="translate(0.000000, 36.000000)">
+                        <g id="Group-6" transform="translate(1.000000, 21.000000)">
+                            <g id="close" transform="translate(0.000000, 1.000000)">
+                                <rect id="Rectangle-Copy-7" fill="#28A745" x="0" y="0" width="14" height="14" rx="7"></rect>
+                                <path d="M10.8612933,4.13534502 C10.6763826,3.95487986 10.3765223,3.95487986 10.1916116,4.13537584 L6.0097633,8.21738313 L3.80841996,6.06859654 C3.62350926,5.88810056 3.32364896,5.88810056 3.1387067,6.06859654 C2.95376443,6.24909252 2.95376443,6.5417937 3.1387067,6.72232049 L5.67489088,9.19795365 C5.76736202,9.28821704 5.88856266,9.33333333 6.00973173,9.33333333 C6.1309008,9.33333333 6.25213301,9.28818623 6.34457257,9.19795365 L10.8612933,4.78906897 C11.0462356,4.60857299 11.0462356,4.31587181 10.8612933,4.13534502 Z" id="Path" stroke="#FFFFFF" strokeWidth="0.6" fill="#FFFFFF" fillRule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

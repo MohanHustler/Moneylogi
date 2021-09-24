@@ -1,0 +1,33 @@
+.edit-bank-popup {
+  padding: 34px 35px;
+}
+.edit-bank-header h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e2e2e;
+  padding-bottom: 24px;
+}
+.edit-bank-input {
+  padding-bottom: 23px;
+}
+.edit-bank-input label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737373;
+  padding-bottom: 10px;
+}
+.edit-bank-input .form-control {
+  height: 40px !important;
+  border-radius: 6px !important;
+  border: solid 1px #dfdfdf !important;
+  background-color: #ffffff !important;
+  padding: 11px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #002a4c !important;
+}
+.edit-bank-input input::placeholder {
+  font-size: 12px;
+  font-weight: 500;
+  color: #002a4c;
+}

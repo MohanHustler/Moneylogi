@@ -1,0 +1,46 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "essential": true,
+      "image": "{{ AWS_ACCOUNT_ID_ECR }}.dkr.ecr.{{ AWS_DEFAULT_REGION }}.amazonaws.com/{{ CIRCLE_PROJECT_REPONAME }}:{{ CIRCLE_TAG }}",
+      "memory": 512,
+      "mountPoints": [
+        {
+          "containerPath": "/var/log/nginx",
+          "sourceVolume": "awseb-logs-{{ CIRCLE_PROJECT_REPONAME }}"
+        }
+      ],
+      "environment": [
+        {
+          "name": "DB_CONNECTION_STRING",
+          "value": "postgres://{{ DB_USERNAME }}:{{ DB_PASSWORD }}@{{ DB_HOST }}/{{ DB_NAME }}"
+        },
+        {
+          "name": "CIRCLE_TAG",
+          "value": "{{ CIRCLE_TAG }}"
+        },
+        {
+          "name": "SERVER_PORT",
+          "value": "{{ SERVER_PORT }}"
+        }
+      ],
+      "name": "{{ CIRCLE_PROJECT_REPONAME }}",
+      "portMappings": [
+        {
+          "containerPort": "{{ SERVER_PORT }}",
+          "hostPort": 80
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-create-group": true,
+          "awslogs-group": "{{ EB_ENVIRONMENT }}-{{ CIRCLE_PROJECT_REPONAME }}",
+          "awslogs-stream-prefix": "{{ APPLICATION_VERSION }}",
+          "awslogs-region": "{{ AWS_DEFAULT_REGION }}"
+        }
+      }
+    }
+  ]
+}

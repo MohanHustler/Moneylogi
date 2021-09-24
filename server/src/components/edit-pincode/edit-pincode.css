@@ -1,0 +1,33 @@
+.manage-pincode-form {
+  display: flex;
+}
+
+.manage-pincode-left {
+  margin-right: 20px;
+}
+
+.manage-pincode-left input {
+  width: 260px;
+}
+
+.manage-pincode-right input {
+  width: 260px;
+}
+
+@media only screen and (max-width: 767px) {
+  .manage-pincode-form {
+    display: block;
+  }
+
+  .manage-pincode-left {
+    margin-right: 0;
+  }
+
+  .manage-pincode-left input {
+    width: 100%;
+  }
+
+  .manage-pincode-right input {
+    width: 100%;
+  }
+}
